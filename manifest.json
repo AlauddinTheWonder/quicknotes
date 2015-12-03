@@ -1,0 +1,19 @@
+{
+  "name": "Quick Notes",
+  "description": "Type and sync everywhere in your chrome",
+  "version": "0.3",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon-16.png",
+    "default_popup": "popup.html",
+    "default_title": "Quick Notes"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage", "tabs", "contextMenus", "notifications"
+  ],
+  "icons": { "16": "icon-16.png", "128": "icon-128.png" }
+}

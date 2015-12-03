@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<!--
+/** Developed By Alauddin Ansari
+ ** wonder_a7@yahoo.co.in
+ ** April 2015
+ **/
+-->
+  <script type="text/javascript" src="popup.js"></script>
+
+  <style type="text/css">
+  label.heading{font-size: 14px; font-weight: bold;}
+  textarea#mynotes{line-height: 20px; width:100%; max-width: 100%; min-height: 300px; border: none; outline: none;
+    background: #fcf9ca;
+    -webkit-box-shadow: inset 0px 0px 20px 0px rgba(102,102,102,0.5);
+    -moz-box-shadow: inset 0px 0px 20px 0px rgba(102,102,102,0.5);
+    box-shadow: inset 0px 0px 20px 0px rgba(102,102,102,0.5);
+  }
+  .smalltext, .smalltext a{font-size: 11px; color: #ccc; font-style: italic; float: right;}
+  a.smalllink{font-size: 11px; color: #0c9ed3;}
+  </style>
+
+  </head>
+  <body>
+    <div style="width:300px; padding-right:2px;">
+      <label class="heading">Quick Notes <span class="smalltext">Last Saved: <span id="datetime"></span></span></label><br /><br />
+      <textarea id="mynotes"></textarea><br />
+      <a href="javascript:;" class="smalllink" id="LoadPrevNote">Load Previous Note</a>
+      <div class="smalltext">Developed By: <a href="javascript:;" id="DevLink">Alauddin Ansari</a></div>
+      <br />
+	</div>
+  </body>
+</html>
